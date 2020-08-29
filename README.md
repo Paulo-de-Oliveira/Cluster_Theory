@@ -6,5 +6,5 @@ The folders are organized sequentially under the execution order. Since there ar
 
 Follow bellow a brief description of the reasoning behind each folder and their main files.
 
-
-
+**2_pattern_generation**
+Generates correlated demand pattern for each network cluster based on a SARMA time series model
