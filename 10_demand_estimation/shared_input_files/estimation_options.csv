@@ -1,0 +1,7 @@
+number of clusters,4
+markov chain size,50000
+burn-in size,10000
+proposal standard deviation,0.035
+prior standard deviation,1
+estimation begin time,336
+estimation end time,503
