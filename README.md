@@ -10,6 +10,10 @@ Follow bellow a brief description of the reasoning behind each folder and their 
 
 Generates correlated demand pattern for each network cluster based on a SARMA time series model
 
+**9_random_cluster_generation**
+
+Generates the random clusters for the net3. There are 3 .R files inside to be executed sequentially.
+
 **10_demand_estimation**
 
 Stores the necessary files to proceed the demand estimation for each condition. In total 100 cluster scenarios were estimated for each sensor location. Each of those demand estimations were made in a different folder composed by 7 files:
