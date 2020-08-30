@@ -10,6 +10,10 @@ Follow bellow a brief description of the reasoning behind each folder and their 
 
 Generates correlated demand pattern for each network cluster based on a SARMA time series model
 
+**8_measurements_generation**
+
+Generates the net3 synthetic measurements by running the network with updated demand patterns and adding measurement error. Just need to run the 3 steps sequentially. The folder with name _bad is corresponding to the pseudo A optimal sensor location.
+
 **9_random_cluster_generation**
 
 Generates the random clusters for the net3. There are 3 .R files inside to be executed sequentially.
