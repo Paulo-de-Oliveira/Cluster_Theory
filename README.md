@@ -10,6 +10,10 @@ Follow bellow a brief description of the reasoning behind each folder and their 
 
 Generates correlated demand pattern for each network cluster based on a SARMA time series model
 
+**5_previous_node_clustering**
+
+Generates a previous separation for the network nodes using the k-mean. Inside the folder there is also a sub-folder that calculates the sensitivity of each pipe flow regarding the previous node groups. The sensitivities were calculated for 4 previously selectec hours which represent different pump status combinations.
+
 **6_sampling_location**
 
 Generates the optimal sensor locations. Two optimization algorithms were utilized: complete enumeration and a genetic algorithm. The algorithms were executed for number of additional sensors varying from 1 to 5. The related folder sampling_location_bad is corresponding to the pseudo A-optimal sensor location method. 
