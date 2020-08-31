@@ -10,6 +10,10 @@ Follow bellow a brief description of the reasoning behind each folder and their 
 
 Generates correlated demand pattern for each network cluster based on a SARMA time series model
 
+**3_network_modifications**
+
+Modify the net3 network according to the objectives of the current paper. Also include additional shortcut files that will be utilized further.
+
 **4_typical_pump_situations**
 
 Choose 4 simulation hours as typical pump situations. The choice is made using an excel worksheet. In addition, 4 epanet files were generated with a static simulation for those 4 chosen hours and the further sensitivity matrices were calculated.
