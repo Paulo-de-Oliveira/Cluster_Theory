@@ -10,6 +10,10 @@ Follow bellow a brief description of the reasoning behind each folder and their 
 
 Generates correlated demand pattern for each network cluster based on a SARMA time series model
 
+**6_sampling_location**
+
+Generates the optimal sensor locations. Two optimization algorithms were utilized: complete enumeration and a genetic algorithm. The algorithms were executed for number of additional sensors varying from 1 to 5. The related folder sampling_location_bad is corresponding to the pseudo A-optimal sensor location method. 
+
 **7_stochastic_demands**
 
 Generates stochastic demands for each network node and update the net3 network. Two .R files need to be executed sequentially.
