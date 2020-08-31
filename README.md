@@ -10,6 +10,10 @@ Follow bellow a brief description of the reasoning behind each folder and their 
 
 Generates correlated demand pattern for each network cluster based on a SARMA time series model
 
+**4_typical_pump_situations**
+
+Choose 4 simulation hours as typical pump situations. The choice is made using an excel worksheet. In addition, 4 epanet files were generated with a static simulation for those 4 chosen hours and the further sensitivity matrices were calculated.
+
 **5_previous_node_clustering**
 
 Generates a previous separation for the network nodes using the k-mean. Inside the folder there is also a sub-folder that calculates the sensitivity of each pipe flow regarding the previous node groups. The sensitivities were calculated for 4 previously selectec hours which represent different pump status combinations.
